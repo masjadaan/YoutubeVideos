@@ -3,12 +3,12 @@
 git clone https://github.com/apogiatzis/gdb-peda-pwndbg-gef.git
 cd gdb-geda-pwndbg-gef
 ./install.sh
-```sh
+```
 
 ## GDB with QEMU
 ```sh
 qemu-arm-static -L /usr/arm-linux-gnueabihf/ -g 1234 hello-arm-dyn
-```sh
+```
 
 ## GDB
 ```sh

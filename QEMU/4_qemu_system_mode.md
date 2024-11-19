@@ -14,6 +14,7 @@ wget http://os.archlinuxarm.org/os/ArchLinuxARM-rpi-aarch64-latest.tar.gz
 mkdir archLinuxARM64
 tar -xzf ArchLinuxARM-rpi-aarch64-latest.tar.gz -C ./archLinuxARM64
 ```
+
 ## Loop Device
 ```sh
 # Create loop devices
@@ -26,6 +27,7 @@ sudo mkfs.vfat /dev/loop14p1
 sudo mkfs.ext4 /dev/loop14p2
 sudo parted sd-card.img print
 ```
+
 ## Mount Points
 ```sh
 sudo mkdir /mnt/boot
